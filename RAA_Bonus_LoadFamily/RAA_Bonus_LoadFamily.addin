@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Load Family">
+    <Text>Command RAA_Bonus_LoadFamily</Text>
+    <Description>Some description for RAA_Bonus_LoadFamily</Description>
+    <Assembly>RAA_Bonus_LoadFamily.dll</Assembly>
+    <FullClassName>RAA_Bonus_LoadFamily.cmdLoadFamily</FullClassName>
+    <ClientId>b3e0cc8a-bb42-4979-937a-d91a3d834736</ClientId>
+    <VendorId>T Edward</VendorId>
+    <VendorDescription>T Edward Coder</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAA_Bonus_LoadFamily</Name>
+    <Assembly>RAA_Bonus_LoadFamily.dll</Assembly>
+    <FullClassName>RAA_Bonus_LoadFamily.App</FullClassName>
+    <ClientId>78aca6ac-3c08-4f04-a660-b62d63b00a4a</ClientId>
+    <VendorId>T Edward</VendorId>
+    <VendorDescription>T Edward Coder</VendorDescription>
+  </AddIn>
+</RevitAddIns>
